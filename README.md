@@ -61,3 +61,21 @@ Create `EXPLANATION.md` (max 250 words) containing:
 ## Submission
 
 - Submit a public GitHub repository URL containing your solution to the Google form link provided.
+
+## How to Run Tests
+
+### Locally
+
+Requires Node.js(v18 or higher).
+
+```bash
+npm install
+npm test
+```
+
+### On Docker
+
+```bash
+docker build -t test.assingment .
+docker run test.assignment
+```
