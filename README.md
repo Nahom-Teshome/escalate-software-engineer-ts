@@ -76,6 +76,6 @@ npm test
 ### On Docker
 
 ```bash
-docker build -t test.assingment .
-docker run test.assignment
+docker build -t test-assignment .
+docker run test-assignment
 ```
